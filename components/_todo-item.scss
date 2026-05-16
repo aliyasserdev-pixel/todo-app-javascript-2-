@@ -1,0 +1,33 @@
+/* ======================
+   TODO ITEM
+====================== */
+
+.todo__item {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 20px;
+
+  border-bottom:
+    1px solid var(--border);
+}
+
+.left {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+}
+
+.todo__item p {
+
+  color: var(--text-main);
+
+  font-size: 18px;
+}

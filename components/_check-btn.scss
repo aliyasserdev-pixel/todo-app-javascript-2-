@@ -1,0 +1,29 @@
+/* ======================
+   CHECK BUTTON
+====================== */
+
+.check-btn {
+
+  width: 22px;
+
+  height: 22px;
+
+  border-radius: 50%;
+
+  background: var(--gradient);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  cursor: pointer;
+
+  flex-shrink: 0;
+}
+
+.check-btn img {
+
+  width: 10px;
+}

@@ -1,0 +1,38 @@
+
+/* ======================
+   FILTER
+====================== */
+
+.todo__filter {
+
+  margin-top: 24px;
+
+  background: var(--card-bg);
+
+  border-radius: 8px;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 24px;
+
+  padding: 18px;
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.todo__filter button {
+
+  color: var(--text-light);
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.todo__filter .active {
+
+  color: var(--blue);
+}

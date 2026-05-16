@@ -1,0 +1,36 @@
+
+
+/* ======================
+   CREATE TODO
+====================== */
+
+.todo__create {
+
+  background: var(--card-bg);
+
+  border-radius: 8px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  padding: 18px 20px;
+
+  margin-bottom: 24px;
+}
+
+.todo__create input {
+
+  width: 100%;
+
+  font-size: 1rem;
+
+  color: var(--text-main);
+}
+
+.todo__create input::placeholder {
+
+  color: var(--text-light);
+}

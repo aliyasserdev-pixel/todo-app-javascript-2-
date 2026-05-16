@@ -1,0 +1,35 @@
+
+/* ======================
+   MOBILE
+====================== */
+
+@media (max-width: 600px) {
+
+  body {
+
+    background-image:
+      url("../images/bg-mobile-light.jpg");
+
+    background-size: 100% 220px;
+  }
+
+  .todo {
+
+    padding: 50px 16px;
+  }
+
+  .todo__header h1 {
+
+    font-size: 2rem;
+  }
+
+  .todo__item {
+
+    padding: 18px 16px;
+  }
+
+  .todo__item p {
+
+    font-size: 15px;
+  }
+}

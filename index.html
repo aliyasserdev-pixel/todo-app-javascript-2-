@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <!-- FONT -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <!-- CSS -->
+<link rel="stylesheet" href="styles/style.css">
+  <title>Todo App</title>
+
+</head>
+
+<body>
+
+  <section class="todo">
+
+    <!-- HEADER -->
+    <div class="todo__header">
+
+      <h1>TODO</h1>
+
+      <button class="theme-btn">
+
+        <img
+          src="../images/icon-moon.svg"
+          alt="moon"
+        />
+
+      </button>
+
+    </div>
+
+    <!-- CREATE TODO -->
+    <div class="todo__create">
+
+      <span class="circle"></span>
+
+      <input
+        type="text"
+        placeholder="Create a new todo..."
+      />
+
+    </div>
+
+    <!-- TODO CONTENT -->
+    <div class="todo__content">
+
+      <!-- ITEM -->
+      <div class="todo__item completed">
+
+        <div class="left">
+
+          <button class="check-btn">
+
+            <img
+              src="../images/icon-check.svg"
+              alt="check"
+            />
+
+          </button>
+
+          <p>
+            Complete online JavaScript course
+          </p>
+
+        </div>
+
+        <button class="delete-btn">
+
+          <img
+            src="../images/icon-cross.svg"
+            alt="delete"
+          />
+
+        </button>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="todo__item">
+
+        <div class="left">
+
+          <span class="circle"></span>
+
+          <p>
+            Jog around the park 3x
+          </p>
+
+        </div>
+
+        <button class="delete-btn">
+
+          <img
+            src="../images/icon-cross.svg"
+            alt="delete"
+          />
+
+        </button>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="todo__item">
+
+        <div class="left">
+
+          <span class="circle"></span>
+
+          <p>
+            10 minutes meditation
+          </p>
+
+        </div>
+
+        <button class="delete-btn">
+
+          <img
+            src="../images/icon-cross.svg"
+            alt="delete"
+          />
+
+        </button>
+
+      </div>
+
+      <!-- ITEM -->
+      <div class="todo__item">
+
+        <div class="left">
+
+          <span class="circle"></span>
+
+          <p>
+            Read for 1 hour
+          </p>
+
+        </div>
+
+        <button class="delete-btn">
+
+          <img
+            src="../images/icon-cross.svg"
+            alt="delete"
+          />
+
+        </button>
+
+      </div>
+
+      <!-- FOOTER -->
+      <div class="todo__footer">
+
+        <span>
+          3 items left
+        </span>
+
+        <button class="clear-btn">
+          Clear Completed
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- FILTER -->
+    <div class="todo__filter">
+
+      <button class="active">
+        All
+      </button>
+
+      <button>
+        Active
+      </button>
+
+      <button>
+        Completed
+      </button>
+
+    </div>
+
+    <p class="drag-text">
+      Drag and drop to reorder list
+    </p>
+
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/* ======================
+   FOOTER
+====================== */
+
+.todo__footer {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 20px;
+
+  color: var(--text-light);
+
+  font-size: 14px;
+}
+
+.clear-btn {
+
+  color: var(--text-light);
+
+  cursor: pointer;
+}
