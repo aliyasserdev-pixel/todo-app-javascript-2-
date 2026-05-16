@@ -23,11 +23,11 @@ A modern and responsive Todo App built with HTML, SCSS, and JavaScript.
 
 ### Mobile Light Mode
 
-![Mobile Light](./mobile-design-light.jpg)
+![Mobile Light](./design/mobile-design-light.jpg)
 
 ### Mobile Dark Mode
 
-![Mobile Dark](./mobile-design-dark.jpg)
+![Mobile Dark](./design/mobile-design-dark.jpg)
 
 ---
 
