@@ -29,8 +29,7 @@ themeBtn.addEventListener("click", function () {
     // BODY
     document.body.style.backgroundColor = "hsl(235, 21%, 11%)";
 
-    document.body.style.backgroundImage =
-      'url("../images/bg-desktop-dark.jpg")';
+    document.body.style.backgroundImage = 'url("./images/bg-desktop-dark.jpg")';
 
     // CARDS
     document.documentElement.style.setProperty(
@@ -55,13 +54,13 @@ themeBtn.addEventListener("click", function () {
     );
 
     // ICON
-    themeIcon.src = "../images/icon-sun.svg";
+    themeIcon.src = "./images/icon-sun.svg";
   } else {
     // BODY
     document.body.style.backgroundColor = "hsl(0, 0%, 98%)";
 
     document.body.style.backgroundImage =
-      'url("../images/bg-desktop-light.jpg")';
+      'url("./images/bg-desktop-light.jpg")';
 
     // COLORS
     document.documentElement.style.setProperty("--card-bg", "#ffffff");
@@ -82,7 +81,7 @@ themeBtn.addEventListener("click", function () {
     );
 
     // ICON
-    themeIcon.src = "../images/icon-moon.svg";
+    themeIcon.src = "./images/icon-moon.svg";
   }
 });
 
@@ -126,7 +125,7 @@ function createTodo(text) {
     <button class="delete-btn">
 
       <img
-        src="../images/icon-cross.svg"
+        src="./images/icon-cross.svg"
         alt="delete"
       />
 
@@ -178,7 +177,7 @@ function completeTodo(todoItem, circle) {
     circle.innerHTML = `
 
       <img
-        src="../images/icon-check.svg"
+        src="./images/icon-check.svg"
         alt="check"
       />
 
