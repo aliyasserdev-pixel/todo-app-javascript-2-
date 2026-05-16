@@ -54,13 +54,13 @@ themeBtn.addEventListener("click", function () {
     );
 
     // ICON
-    themeIcon.src = "../images/icon-sun.svg";
+    themeIcon.src = "./images/icon-sun.svg";
   } else {
     // BODY
     document.body.style.backgroundColor = "hsl(0, 0%, 98%)";
 
     document.body.style.backgroundImage =
-      'url("../images/bg-desktop-light.jpg")';
+      'url("./images/bg-desktop-light.jpg")';
 
     // COLORS
     document.documentElement.style.setProperty("--card-bg", "#ffffff");
@@ -81,7 +81,7 @@ themeBtn.addEventListener("click", function () {
     );
 
     // ICON
-    themeIcon.src = "../images/icon-moon.svg";
+    themeIcon.src = "./images/icon-moon.svg";
   }
 });
 
