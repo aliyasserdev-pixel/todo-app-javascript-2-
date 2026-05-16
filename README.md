@@ -4,10 +4,10 @@ A modern and responsive Todo App built with HTML, SCSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-* 🌐 Live Site: [Add Live URL Here](#)
+* 🌐 Live Site: [Add Live URL Here](https://aliyasserdev-pixel.github.io/todo-app-javascript-2-/)
 * 💻 GitHub Repository: [Add Repository URL Here](#)
 * 🎯 Frontend Mentor Solution: [Add Frontend Mentor URL Here](#)
-* 🔗 LinkedIn: [Add LinkedIn URL Here](#)
+* 🔗 LinkedIn: [Add LinkedIn URL Here](https://www.linkedin.com/in/ali-yasser-b0b38138a/)
 
 ---
 
