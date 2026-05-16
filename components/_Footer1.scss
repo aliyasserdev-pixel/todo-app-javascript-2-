@@ -1,0 +1,25 @@
+/* ======================
+   FOOTER
+====================== */
+
+.footer1 {
+  text-align: center;
+
+  padding: 30px 20px;
+
+  color: var(--text-light);
+
+  font-size: 15px;
+}
+
+.footer1 a {
+  color: var(--blue);
+
+  text-decoration: none;
+
+  font-weight: 700;
+}
+
+.footer1 a:hover {
+  text-decoration: underline;
+}
