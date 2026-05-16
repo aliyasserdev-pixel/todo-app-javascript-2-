@@ -29,7 +29,8 @@ themeBtn.addEventListener("click", function () {
     // BODY
     document.body.style.backgroundColor = "hsl(235, 21%, 11%)";
 
-    document.body.style.backgroundImage = 'url("../images/bg-desktop-dark.jpg")';
+    document.body.style.backgroundImage =
+      'url("../images/bg-desktop-dark.jpg")';
 
     // CARDS
     document.documentElement.style.setProperty(
@@ -60,7 +61,7 @@ themeBtn.addEventListener("click", function () {
     document.body.style.backgroundColor = "hsl(0, 0%, 98%)";
 
     document.body.style.backgroundImage =
-      'url("./images/bg-desktop-light.jpg")';
+      'url("../images/bg-desktop-light.jpg")';
 
     // COLORS
     document.documentElement.style.setProperty("--card-bg", "#ffffff");
@@ -243,70 +244,41 @@ updateItems();
 // ======================
 
 filterButtons.forEach((button) => {
+  button.addEventListener("click", function () {
+    // active button
+    filterButtons.forEach((btn) => {
+      btn.classList.remove("active");
+    });
 
-  button.addEventListener(
-    "click",
-    function () {
+    button.classList.add("active");
 
-      // active button
-      filterButtons.forEach((btn) => {
+    const todos = document.querySelectorAll(".todo__item");
 
-        btn.classList.remove("active");
-      });
+    todos.forEach((todo) => {
+      // ALL
+      if (button.textContent.trim() === "All") {
+        todo.style.display = "flex";
+      }
 
-      button.classList.add("active");
-
-      const todos =
-        document.querySelectorAll(".todo__item");
-
-      todos.forEach((todo) => {
-
-        // ALL
-        if (
-          button.textContent.trim() === "All"
-        ) {
-
+      // ACTIVE
+      else if (button.textContent.trim() === "Active") {
+        if (todo.classList.contains("completed")) {
+          todo.style.display = "none";
+        } else {
           todo.style.display = "flex";
         }
+      }
 
-        // ACTIVE
-        else if (
-          button.textContent.trim() === "Active"
-        ) {
-
-          if (
-            todo.classList.contains("completed")
-          ) {
-
-            todo.style.display = "none";
-          }
-
-          else {
-
-            todo.style.display = "flex";
-          }
+      // COMPLETED
+      else if (button.textContent.trim() === "Completed") {
+        if (todo.classList.contains("completed")) {
+          todo.style.display = "flex";
+        } else {
+          todo.style.display = "none";
         }
-
-        // COMPLETED
-        else if (
-          button.textContent.trim() === "Completed"
-        ) {
-
-          if (
-            todo.classList.contains("completed")
-          ) {
-
-            todo.style.display = "flex";
-          }
-
-          else {
-
-            todo.style.display = "none";
-          }
-        }
-      });
-    }
-  );
+      }
+    });
+  });
 });
 
 // ======================
