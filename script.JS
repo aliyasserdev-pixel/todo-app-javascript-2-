@@ -29,7 +29,8 @@ themeBtn.addEventListener("click", function () {
     // BODY
     document.body.style.backgroundColor = "hsl(235, 21%, 11%)";
 
-    document.body.style.backgroundImage = 'url("./images/bg-desktop-dark.jpg")';
+    document.body.style.backgroundImage =
+      'url("../images/bg-desktop-dark.jpg")';
 
     // CARDS
     document.documentElement.style.setProperty(
@@ -60,7 +61,7 @@ themeBtn.addEventListener("click", function () {
     document.body.style.backgroundColor = "hsl(0, 0%, 98%)";
 
     document.body.style.backgroundImage =
-      'url("./images/bg-desktop-light.jpg")';
+      'url("../images/bg-desktop-light.jpg")';
 
     // COLORS
     document.documentElement.style.setProperty("--card-bg", "#ffffff");
