@@ -15,19 +15,19 @@ A modern and responsive Todo App built with HTML, SCSS, and JavaScript.
 
 ### Desktop Light Mode
 
-![Desktop Light](./design/desktop-design-dark.jpg)
+![Desktop Light](./design/desktop-design-light.jpg)
 
 ### Desktop Dark Mode
 
-![Desktop Dark](./design/desktop-dark.jpg)
+![Desktop Dark](./design/desktop-design-dark.jpg)
 
 ### Mobile Light Mode
 
-![Mobile Light](./design/mobile-light.jpg)
+![Mobile Light](./mobile-design-light.jpg)
 
 ### Mobile Dark Mode
 
-![Mobile Dark](./design/mobile-dark.jpg)
+![Mobile Dark](./mobile-design-dark.jpg)
 
 ---
 
