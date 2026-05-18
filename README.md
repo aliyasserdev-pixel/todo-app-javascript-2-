@@ -6,7 +6,7 @@ A modern and responsive Todo App built with HTML, SCSS, and JavaScript.
 
 * 🌐 Live Site: [Add Live URL Here](https://aliyasserdev-pixel.github.io/todo-app-javascript-2-/)
 * 💻 GitHub Repository: [Add Repository URL Here](https://github.com/aliyasserdev-pixel/todo-app-javascript-2-.git)
-* 🎯 Frontend Mentor Solution: [Add Frontend Mentor URL Here](https://www.frontendmentor.io/solutions/responsive-todo-app-with-dark-mode-filtering-functionality-and-dynam-eMsEzOdro)
+* 🎯 Frontend Mentor Solution: [Add Frontend Mentor URL Here](https://www.frontendmentor.io/solutions/responsive-todo-app-with-dark-mode-filtering-functionality-and-dynam-eMsEzOdr0o)
 * 🔗 LinkedIn: [Add LinkedIn URL Here](https://www.linkedin.com/in/ali-yasser-b0b38138a/)
 
 ---
